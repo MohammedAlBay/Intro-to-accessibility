@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Styles/contact.css">
+  <title>Contact page</title>
+  <script src="https://kit.fontawesome.com/10811ae2ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header role="banner">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" class="logo">travel blog</a>
+      <ul>
+        <li><a href="/AboutMe.html">About Me</a></li>
+        <li><a href="/Trips.html">Latest Trips</a></li>
+        <li><a href="/Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main" class="maincontent">
+    <h2 id="Contact">Get in touch with me!</h2>
+    <p>Send me your questions, comments, or suggestions!</p>
+    <p>If you have a question or comment, you can contact me using the form below.</p>
+    <form class="contactform">
+      <div class="input-group">
+        <input type="text" id="name" required>
+        <label for="name"><i class="fa-solid fa-user"></i> Your name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" required>
+        <label for="email"><i class="fa-solid fa-envelope"></i> Your email</label>
+      </div>
+      <div class="input-group">
+        <textarea id="message" rows="5" required></textarea>
+        <label for="message"><i class="fa-solid fa-comments"></i> Your message</label>
+      </div>
+      <button type="submit" id="subbtn1">SUBMIT <i class="fa-regular fa-paper-plane"></i></button>
+    </form>
+    <div class="newsletter">
+      <h2 id="Subscribe">Get Newsletter</h2>
+      <p>Enter your email in the box below to receive news and information about my latest trips</p>
+      <form class="subform">
+        <input type="email" placeholder="Email" required>
+        <br>
+        <button class="submit" id="subbtn2">SUBMIT NOW <i class="fa-regular fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </main>
+  <footer role="contentinfo">
+    <div class="socials">
+      <ul>
+        <li><a href="#"><img src="/images/facebook-154.svg" alt="Facebook-Icon"></a></li>
+        <li><a href="#"><img src="/images/twitter-159.svg" alt="Twitter-icon"></a></li>
+        <li><a href="#"><img src="/images/instagram-71.svg" alt="Instagram-icon"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
